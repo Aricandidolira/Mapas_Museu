@@ -1,0 +1,206 @@
+body{background-color:white; font-family:Arial, Helvetica,sans-serif; font-size:16px; }
+
+#geral { width:980px; margin: 0 auto; } 
+
+header{ height:150px;	background-color:white; background: url('../figuras/logo.jpg');} 
+
+nav{width:100%;}
+
+#menuesquerda {position:absolute; top:170px; width:200px;  }
+
+#menucentro{position:absolute; margin-left:220px; top:160px; width:580px;}
+
+#menucentro ul {padding:0px;
+			   margin:0px;
+			 list-style:none;}
+			 
+#menucentro ul li { display: inline; }
+
+#menucentro ul li a {padding: 2px 10px;
+				display: inline-block;
+				background-color:#696969;
+				color: white;
+				font-size:1.3em;
+				text-decoration: none;
+				border-bottom:3px solid gray;}
+				
+#menucentro ul li a:hover {background-color:white;
+					  color: #4682B4;
+					  font-weight:bold;
+					  border-bottom:3px solid #4682B4;}
+
+#foto{height:100px; padding: 4px 0px 0px 5px;margin-left:-290px; }
+
+article{  width:100%; float:left; margin-top:80px;margin-left:90px; } 
+
+#interno1{margin-top: 100px;}
+
+.menuescondido{float:left;  width:200px;   cursor:pointer; text-align:center; color:#191970; font-weight:bold;}
+
+#menudireita{position:absolute; top:50px; width:200px; margin-left:70px; }
+
+#menudireita a{color:#191970; font-weight:bold; font-size:80%;}
+
+#box { width:300px; height:200px;   margin-bottom:5px; padding-top:10px; padding-bottom:10px; float:left; } 
+
+#box label{color:#4682B4;font-weight: bold;}
+#box1 { width:170px; height:200px;   margin-bottom:5px; padding-top:10px; padding-bottom:10px; float:left; } 
+
+
+label { display: block; margin-top: 10px;}
+label.error { float: none; color: red; margin: 0 .5em 0 0; vertical-align: top; font-size: 10px }
+p { clear: both; }
+
+
+h2{
+	color:#191970;
+	font-weight:bold;
+	/*top:40px; width:1000px; margin-left:-320px;*/ 
+}
+
+a img{
+	border:none;
+}
+a {text-decoration: none; }
+
+form{
+  background-color:white;
+  width:600px;
+  text-align:center;
+  color: #191970;
+  font-weight:bold;
+}
+
+form p{
+  padding:12px;
+}
+
+form p label{
+  color:#191970;
+  font-weight:bold;
+}
+
+form input{
+  padding:6px;
+  border:1px solid #ccc;
+  width:300px;
+}
+
+.conteudo{
+		 padding-top:150px; 
+}
+
+table{
+  width:600px;
+  border:1px solid #ccc;
+}
+
+table thead th{
+  background-color:#4682B4;
+  padding:6px;
+  color: white;
+  text-align:center;
+  
+}
+
+table thead th.header{
+  cursor:pointer;
+}
+
+table tbody td{
+  padding:6px;
+  text-align:center;
+  color: #191970;
+}
+
+table tbody tr.odd td{
+  background-color:#E6E6FA;
+}
+
+table tbody tr.hover td{
+  background-color:#a9d0f5;
+}
+
+table tbody tr.selected td{
+  background-color:#a9f5a9!important;
+}
+
+ .botao {
+        font-size:10px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color: white;
+        background:#4682B4;
+		border:0px;
+        width:80px;
+        height:20px;
+		padding:5px;
+		}
+
+.total{background:#4682B4;
+	   text-transform: uppercase;
+	   text-align:right;
+	   font-weight: bold;
+	}
+.valor{background:#4682B4;
+	   text-transform: uppercase;
+	   text-align:center;
+	   font-weight: bold;
+	}
+.nada{margin-left:280px;}
+
+.voltar {color: #4682B4;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left:200px;}
+.link{
+		font-size:10px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        background:#4682B4;
+		border:1px;
+        padding:3px 15px;}	
+table th{
+  background-color:#4682B4;
+  padding:6px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-align:center;
+  border:0px;
+}
+.pagedisplay{
+	width:40px;
+	text-align:center;
+	border:none;
+	background-color:#f2f2f2;
+	font-weight:900;
+}
+
+#pager span{
+	font-weight:900;
+	display:inline-block;
+	margin:0 0 0 20px;
+	color:white;
+	float:right;
+}
+
+#pager form{
+	text-align:left;
+	padding:10px;
+	width:580px;
+}
+
+#imgprodutos{
+	width:250px; 
+	height:250px;
+	border: 5px black;
+}
+
+h3
+{
+	color:black;
+}
